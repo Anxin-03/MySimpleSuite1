@@ -1,0 +1,9 @@
+﻿to hibernate duration
+	log "test started"
+	wait duration
+	log "test completed"
+end hibernate
+
+to log_stuff 
+	log "Hello world"
+end log_stuff
